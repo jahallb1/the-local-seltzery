@@ -19,9 +19,7 @@ h1 {
     letter-spacing: 0.040em;
     border: 1px solid rgba(47, 46, 47, 0.59);
 }
-.navactive{
-   border-bottom: 1px solid #96E16B;
-}
+
 p.desc-text{
     font-size: 20px;
     line-height: 35px;
@@ -77,7 +75,7 @@ p.desc-text{
     content: "\e600";
 }
 
-.icon-github:before {
+.icon-instagram:before {
     content: "\e601";
 }  
 
@@ -85,7 +83,7 @@ p.desc-text{
     content: "\e602";
 }
 
-.icon-linkedin:before {
+.icon-facebook:before {
     content: "\e603";
 }
 
@@ -161,7 +159,7 @@ h1, h2, p, span, a {
     transition: color 0.3s ease-in-out;
 }
 .color_animation:hover{
-    color: #9BE86F !important;
+    color: #29ad91!important;
 }
 /*========================
     NAV
@@ -180,7 +178,7 @@ div#bs-example-navbar-collapse-1 {
 }
 
 nav {
-    background: #1E1E1E !important;
+    background: #c16137!important;
     font-size: 18px;
     color: white !important;
 }
@@ -347,7 +345,7 @@ FIRST FOOTER CONTENT
     font-size: 28px;
     font-weight: 900;
     letter-spacing: 0.040em;
-    color: #63C85D;
+    color: #29ad91;
     text-align: center;
     margin: 40px 0 0 0;
 }
@@ -758,7 +756,7 @@ MEDIA QUERIES TABLET
         width: 325px;
     } 
 
-} /*END OF MEDIA QUERY*/
+ /*END OF MEDIA QUERY*/
 
 /*========================
 MEDIA QUERIE DESKTOP
