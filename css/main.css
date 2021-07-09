@@ -122,11 +122,18 @@ li.item{
     -o-transform:rotate(180deg);
 }
 
-body, html {
+body, html{
     margin: 0;
     padding: 0;
     height: 100%;
+    
 }
+
+body, html, .hero {
+    background-image: url(/images/iStock-1279277960.jpg) !important;
+}
+
+    
 
 .clear::after {
     content: "";
