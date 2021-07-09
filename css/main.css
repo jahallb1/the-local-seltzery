@@ -12,6 +12,14 @@ Text Domain: restaurant
 /*========================
 GLOBAL
 =========================*/
+
+@font-face {
+    font-family: brandon-grotesque;
+    src: url("../fonts/HVD\ Fonts\ -\ BrandonGrotesque-Bold.otf") format("opentype");
+    font-family: nexarustscript;
+    src: url("../fonts/NexaRustScriptL-0.otf") format("opentype");
+    
+}
 h1 {
     font-size: 37px;
     font-weight: 900;
@@ -21,12 +29,16 @@ h1 {
 }
 
 p.desc-text{
+    color: #29ad91;
     font-size: 20px;
     line-height: 35px;
     text-align: justify;
+    font-family: brandon-grotesque, sans-serif;
+    font-style: normal;
+    font-weight: 700;
 }
 .text-content.container {
-    margin-top: 65px;
+    margin-top: 110px;
     margin-bottom: -51px;
 }
 .right-text p{
@@ -870,4 +882,11 @@ MEDIA QUERIE DESKTOP
     display: flex;
     font-size: 20px;
     
+}
+
+.box-white {
+    background: white;
+    border-radius: 10px;
+    /* mix-blend-mode: multiply; */
+    opacity: .65;
 }
