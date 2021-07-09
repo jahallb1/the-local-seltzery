@@ -334,7 +334,7 @@ IMAGE DESCRIPTION BODY CONTENT
 FIRST FOOTER CONTENT
 =========================*/
 .first_footer {
-    background-color: #1e1e1e;
+    background-color: #c16137;
     text-align: center;
 }
 .social_heading,
@@ -404,7 +404,7 @@ SECOND FOOTER CONTENT
 =========================*/
 
 footer.sub_footer {
-    background-color: #1C1C1C;
+    background-color: #c16137;
     padding: 20px;
 }
 
@@ -522,7 +522,7 @@ p.sub-footer-text a{
     height: auto;
     padding:15px;
     color:#fff;
-    background:rgba(80, 160, 108, 1);
+    background:#29ad91;
     border:none;
     border-radius:3px;
     outline: none;
@@ -536,7 +536,7 @@ p.sub-footer-text a{
     text-align: center;
 }
 .form-btn:hover{
-    background: rgba(85, 184, 120, 1);
+    background: #259b81;
     color: white;
     border:none;
 }
@@ -686,9 +686,10 @@ MEDIA QUERIES TABLET
     h1 {
         font-size: 32px;
         font-weight: 900;
-        width: 280px;
+        width: 300px;
         letter-spacing: 0.040em;
-        border: 1px solid #2f2e2f;
+        border: 0;
+        border-bottom: 4px solid black;
     }
     .picture_content {
         display: inline-block;
@@ -732,18 +733,20 @@ MEDIA QUERIES TABLET
     =========================*/
 
     section.social_connect {
-        background-color: black;
+        background-color: #29ad91;
         text-align: center;
+        color: #fff;
         margin-bottom: 50px;
   }
 
     .social_heading {
         font-size: 33px;
         margin: 50px 0 0 0;
+        color: #fff;
     }
 
     .social_info a {
-        font-size: 24.93px;
+        font-size: 22px;
     }
 
     .social_icons li a {
@@ -854,4 +857,10 @@ MEDIA QUERIE DESKTOP
     .social_icons li a {
         font-size: 30px;
     }
+}
+
+.address {
+    display: flex;
+    font-size: 20px;
+    
 }
