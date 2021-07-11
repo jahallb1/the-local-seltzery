@@ -143,8 +143,8 @@ body, html{
     
 }
 
-body, html, .hero {
-    background-image: url("/images/iStock-1279277960.jpg") !important;
+ .background {
+    background-image: url(/images/iStock-1279277960.jpg) !important;
 }
 
     
