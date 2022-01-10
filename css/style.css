@@ -3,5 +3,11 @@
     
 }
 video {
-    height: 200%;
+    height: 100%;
+    width: auto;
+}
+
+.rest-img {
+    height: 1500px;
+    width: auto;
 }

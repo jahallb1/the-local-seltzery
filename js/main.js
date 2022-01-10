@@ -22,6 +22,8 @@
 			});
 		});
 	});
+
+	
  
 	function onScroll(event){
 		var scrollPosition = $(document).scrollTop();
