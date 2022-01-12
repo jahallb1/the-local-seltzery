@@ -1,3 +1,1 @@
-$('.carousel').carousel({
-    interval: 450000
-  })
+$('.carousel').carousel('pause')
