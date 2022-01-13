@@ -3,8 +3,8 @@
     
 }
 video {
-    height: 100%;
-    width: auto;
+    height: 150%;
+    min-width: auto;
 }
 
 .rest-img {

@@ -201,6 +201,7 @@ nav {
     background: #c16137!important;
     font-size: 18px;
     color: white !important;
+    
 }
 
 li{
@@ -669,6 +670,7 @@ MEDIA QUERIES TABLET
         height: 70px;
         padding-top: 10px;
     }
+    
 
     nav li{
         padding-right: -15px;
