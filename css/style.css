@@ -22,3 +22,9 @@ video {
 .font-second {
  font-family: nexarustscript !important;
 }
+
+.menupdf {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
