@@ -28,3 +28,19 @@ video {
     justify-content: center;
     align-items: center;
 }
+
+nav {
+    height: auto;
+}
+
+.navbar-collapse  {
+    background-color: #29ad91 !important;
+}
+
+button, .navbar-toggler {
+    background-color: #29ad91;
+}
+
+.background {
+    background-image: url("../images/iStock-1279277960.jpg") !important;
+}
