@@ -44,3 +44,7 @@ button, .navbar-toggler {
 .background {
     background-image: url("../images/iStock-1279277960.jpg") !important;
 }
+
+.text-content-background {
+    background-color: whitesmoke !important;
+}
