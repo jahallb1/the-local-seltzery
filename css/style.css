@@ -21,6 +21,7 @@ video {
 
 .font-second {
  font-family: nexarustscript !important;
+ text-transform: lowercase;
 }
 
 .menupdf {
@@ -48,7 +49,9 @@ button, .navbar-toggler {
 .text-content-background {
     background-color: whitesmoke !important;
 }
-
+.about-headers {
+    margin-bottom: 20px;
+}
 /* .carousel-item {
     height: 300px;
     width: auto;
@@ -68,11 +71,16 @@ button, .navbar-toggler {
     }
     a, .navbar {
         padding-bottom: 25px;
-        background-color: #c16137;
+        text-align: center;
     }
     button, .navbar-toggler {
         margin-top: 10px;
+        padding: 4px
         
+    }
+
+    .button, .button-back {
+        margin-top: 10px;
     }
 
     .navbar-collapse, .collapse, .show {
