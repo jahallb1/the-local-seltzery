@@ -48,3 +48,35 @@ button, .navbar-toggler {
 .text-content-background {
     background-color: whitesmoke !important;
 }
+
+/* .carousel-item {
+    height: 300px;
+    width: auto;
+} */
+
+@media (max-width: 700px) {
+    img {
+        height: 500px !important;
+        width: 100% !important;
+        margin-top: -100px;
+        margin-bottom: -300px;
+    }
+    a, img {
+        height: 30px !important;
+        width: 30px !important;
+        margin: 0;
+    }
+    a, .navbar {
+        padding-bottom: 25px;
+        background-color: #c16137;
+    }
+    button, .navbar-toggler {
+        margin-top: 10px;
+        
+    }
+
+    .navbar-collapse, .collapse, .show {
+        margin-top: 20px;
+        background-color: #29ad91 !important;
+    }
+}
