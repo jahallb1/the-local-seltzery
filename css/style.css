@@ -152,4 +152,7 @@ button, .navbar-toggler {
     #text-content-openning {
         height: 300px !important;
     }
+    object {
+        background-color: whitesmoke;
+    }
 }
