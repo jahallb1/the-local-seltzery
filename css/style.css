@@ -149,4 +149,8 @@ button, .navbar-toggler {
     .hide-carousel {
         display: none;
     }
+
+    #text-content-openning {
+        height: 300px !important;
+    }
 }
