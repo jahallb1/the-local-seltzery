@@ -59,6 +59,11 @@ button, .navbar-toggler {
 .hide-menu-link {
     display: none;
 }
+/* About Us */
+
+.about-headers {
+    margin: 20px 0;
+}
 
 @media (max-width: 700px) {
     img {
@@ -96,20 +101,21 @@ button, .navbar-toggler {
         width: 350px !important;
        
     }
-    .hide {
+     /* .hide {
         display: none;
     }
-    
-    .hide-menu-link {
+    */
+     .hide-menu-link {
         display: block;
         text-transform: uppercase;
         font-weight: 600;
+    } 
+    
+    object {
+        height:500px;
+        width: 350px;
     }
-    .menupdf {
-        padding-top: 1rem;
-        padding-right: 30px;
-
-    }
+   
     #glass-image-grass {
         height: 200px !important;
     width: 200px !important;
@@ -131,5 +137,12 @@ button, .navbar-toggler {
     #text-content, h1 {
         font-size: 36px;
     }
-    
+
+    #about-picture {
+        height: 10px !important;
+        width: 10px !important;
+    }
+    .font-header {
+        margin-top: 8px;
+    }
 }
