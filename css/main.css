@@ -613,13 +613,13 @@ MEDIA QUERIES MOBILE
         border-bottom: 8px solid #2f2e2f;
     }
 
-    img {
+    /* img {
         height: 500px;
     width: 100%;
     margin-top: -100px;
     margin-bottom: -300px;
 
-    }
+    } */
     
     .top-title {
         font-size: 67px;
