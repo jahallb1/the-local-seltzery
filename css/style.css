@@ -145,4 +145,8 @@ button, .navbar-toggler {
     .font-header {
         margin-top: 8px;
     }
+
+    .hide-carousel {
+        display: none;
+    }
 }
