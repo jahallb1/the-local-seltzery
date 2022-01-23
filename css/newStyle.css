@@ -1,0 +1,98 @@
+:root {
+    --primary: #29ad91;
+    --secondary: #c16137;
+}
+
+@font-face {
+    font-family: brandon-grotesque;
+    src: url("../fonts/HVD\ Fonts\ -\ BrandonGrotesque-Bold.otf") format("opentype");
+    font-family: nexarustscript;
+    src: url("../fonts/NexaRustScriptL-0.otf") format("opentype");
+    
+}
+
+.background {
+    background-image: url("../images/iStock-1279277960.jpg") !important;
+}
+h2 {
+    border-bottom: solid 2px black;
+}
+
+/* navbar */
+
+nav {
+    background-color: var(--secondary);
+}
+.font-header {
+    font-family:brandon-grotesque !important;
+}
+
+.font-second {
+ font-family: nexarustscript !important;
+ text-transform: lowercase;
+}
+
+/* question */
+.navbar-toggle {
+    background-color: var(--primary);
+}
+
+/* Now Open */
+.h1-nulu {
+    border-bottom: 2px solid black;
+}
+
+.text-nulu {
+    font-size: 25px;
+    color: var(--primary);
+}
+
+.nulu-opening-container {
+    background-color: whitesmoke;
+}
+
+/* Cleaner Drinks image and text */
+.greener-contianer {
+    background-color: whitesmoke;
+}
+.cleaner-drinks-text {
+    color: var(--secondary);
+    font-size: 25px;
+}
+
+/* Party with Us */
+.party-withus-container {
+    background-color: whitesmoke;
+}
+.text-party{
+    color: var(--primary);
+    font-size: 25px;
+}
+
+/* hours */
+.hours-container {
+    background-color: var(--primary);
+    color: #fff;
+}
+
+/* Social and address */
+.social-container {
+    background-color: var(--primary);
+    color: #fff;
+}
+
+a, #location, #social {
+color: #fff;
+}
+
+.social-icons {
+    text-decoration: none;
+    list-style-type: none;
+    display: inline-block;
+}
+
+/* contact us */
+button {
+    color: #fff;
+    background-color: var(--primary);
+}
