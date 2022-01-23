@@ -57,8 +57,9 @@ button, .navbar-toggler {
     width: auto;
 } */
 .carousel-inner > .carousel-item > img {
-    width:620px;
-    height:750px;
+    max-width:620px;
+    width: 100%;
+    height:auto;
   }
   
 .hide-menu-link {
@@ -150,9 +151,9 @@ button, .navbar-toggler {
         margin-top: 8px;
     }
 
-    .hide-carousel {
+    /* .hide-carousel {
         display: none;
-    }
+    } */
 
     #text-content-openning {
         height: 300px !important;
@@ -160,4 +161,9 @@ button, .navbar-toggler {
     object {
         background-color: whitesmoke;
     }
+
+    .carousel-inner > .carousel-item > img {
+        width:400px;
+        height:750px;
+      }
 }

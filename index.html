@@ -11,7 +11,7 @@
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="./css/main.css" />
+    <!-- <link rel="stylesheet" href="./css/main.css" /> -->
     <link
       rel="icon"
       type="image/x-icon"
@@ -19,13 +19,14 @@
       href="./images/icon.iconset/icon_32x32@2x.png"
     />
     <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="./css/style.css" />
+    <!-- <link rel="stylesheet" href="./css/style.css" /> -->
+    <link rel="stylesheet" href="./css/newStyle.css">
   </head>
   <body>
     <!--Navbar-->
     <nav class="navbar navbar-light lighten-4">
       <!-- Navbar brand -->
-      <a class="navbar-brand navbar-default navbar-fixed-top" href="#">
+      <a class="navbar-brand navbar-default navbar-fixed-top" href="./index.html">
         <img
           class=""
           src="./images/icon.iconset/icon_128x128.png"
@@ -84,22 +85,28 @@
     </video> -->
     <div class="background">
     <div class="container">
-        
         <div class="row">
+          <div class="col-12">
+            <div class="embed-responsive embed-responsive-16by9">
+              <video class="embed-responsive-item" src="./videos/video_2.mp4" allowfullscreen ></video>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="row">
             <video class="video-fluid loop z-depth-1" autoplay="autoplay" loop="true" muted defaultmuted playsinline>
                 <source src="./videos/video_2.mp4" type="video/mp4" />
               </video>
-        </div>
-        
+        </div> -->
+       
         <section class="description_content">
       <div id="about" class="row">
         <div class="col-md-6">
           <div class="img-section">
-            <img src="images/square-logo.png" width="500" height="450" alt="" />
+            <img src="images/square-logo.png" class="img-fluid" alt="" />
           </div>
         </div>
         <div class="text-content text-content-background col-md-6" id="text-content-openning" style="margin-top: 120px; height: 250px">
-          <h1 style="width: 500px; font-size: 38px" ;>
+          <h1>
             Now Open! <br />
             In NuLu Marketplace
           </h1>
@@ -113,8 +120,8 @@
     <section>
 
    
-      <div class="row hide-carousel">
-          <div class="col-lg-12 col-xs-12 ">
+      <div class="row">
+          <div class="col-12">
             <div
             id="carouselExampleControls"
             class="carousel slide"
@@ -201,11 +208,12 @@
         </div>
           </div>
         </section>
+        
       <section class="description_content ">
         <div class="row text-content-background">
             <div class="text-content text-content-background container"></div>
             <div class="col-md-6">
-              <h1 style="width: 500px; font-size: 38px">Where the grass is greener and the drinks are cleaner</h1>
+              <h1>Where the grass is greener and the drinks are cleaner</h1>
               <p class="desc-text" style="margin: 20px 0; color: #c16137;">
                 All of our seltzer drinks and cocktails are 100 calories or less,
                 gluten free, vegan, and crafted with all-natural ingredients! And
@@ -216,7 +224,7 @@
                 <div class="img-section">
                     <img
                     src="./images/glass_grass.jpeg"
-                    width="500" height="450"
+                    class="img-fluid"
                     alt=""
                     id="glass-image-grass"
                   />
@@ -229,14 +237,14 @@
         <div id="menu" class="row">
             <div class="col-lg-12 col-md-6">
               <a class="hide-menu-link" href="./images/TSL-menu-new.pdf" target="_blank"><h3>Menu</h3> </a> <br />
-              <object
-                data="./images/TSL-menu-new.pdf"
+              <iframe
+                src="./images/TSL-menu-new.pdf"
                 type="application/pdf"
-                height="1000px"
-                width="1000px"
+                height="800px"
+                width="100%"
                 alt=""
                 class="hide"
-              ></object>
+              ></iframe>
             </div>
           </div>
       </section>
@@ -261,7 +269,7 @@
         <div class="row text-content-background">
             <div class="col-md-6">
                 <div class="text-content text-content-background container" id="text-content">
-              <h1 style="width: 500px; font-size: 38px">Party with us!</h1>
+              <h1 >Party with us!</h1>
               <p class="desc-text">
                 Contact us to book our private mezzanine space for your next event.
               </p>
@@ -271,7 +279,7 @@
                 <div class="img-section">
               <img
                 src="./images/resturantImages/mez_couches.jpg"
-                width="500" height="450"
+                class="img-fluid"
                 alt=""
                 id="party-image-couch"
               />
