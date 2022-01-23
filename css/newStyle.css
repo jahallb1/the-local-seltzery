@@ -40,11 +40,13 @@ nav {
 /* Now Open */
 .h1-nulu {
     border-bottom: 2px solid black;
+    text-align: center;
 }
 
 .text-nulu {
     font-size: 25px;
     color: var(--primary);
+    text-align: center;
 }
 
 .nulu-opening-container {
@@ -54,8 +56,10 @@ nav {
 /* Cleaner Drinks image and text */
 .greener-contianer {
     background-color: whitesmoke;
+    text-align: center;
 }
 .cleaner-drinks-text {
+    text-align: center;
     color: var(--secondary);
     font-size: 25px;
 }
@@ -63,8 +67,10 @@ nav {
 /* Party with Us */
 .party-withus-container {
     background-color: whitesmoke;
+    text-align: center;
 }
 .text-party{
+    text-align: center;
     color: var(--primary);
     font-size: 25px;
 }
@@ -105,4 +111,8 @@ button {
 .menu-link {
     text-align: center;
     color: black;
+}
+
+.about-headers {
+    margin: 20px 0;
 }
