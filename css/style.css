@@ -56,7 +56,11 @@ button, .navbar-toggler {
     height: 300px;
     width: auto;
 } */
-
+.carousel-inner > .carousel-item > img {
+    width:620px;
+    height:750px;
+  }
+  
 .hide-menu-link {
     display: none;
 }
