@@ -71,6 +71,7 @@ nav {
 
 /* hours */
 .hours-container {
+    text-align: center;
     background-color: var(--primary);
     color: #fff;
 }
@@ -95,4 +96,13 @@ color: #fff;
 button {
     color: #fff;
     background-color: var(--primary);
+}
+
+.form-header {
+    text-align: center;
+}
+
+.menu-link {
+    text-align: center;
+    color: black;
 }
