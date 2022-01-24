@@ -29,6 +29,11 @@ nav {
 }
 .font-header {
     font-family:brandon-grotesque !important;
+    font-size: 45px;
+}
+a > img {
+    height: 50px;
+    width: 50px;
 }
 
 .font-second {
@@ -40,6 +45,7 @@ nav {
 .navbar-toggle {
     background-color: var(--primary);
 }
+
 
 /* Now Open */
 .h1-nulu {
@@ -124,9 +130,18 @@ button {
     margin-bottom: 0;
 }
 
+.menu-image {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 @media (max-width: 700px) {
     a > img {
         height: 50px;
         width: 50px;
+    }
+    .font-header {
+        font-size: 30px;
     }
 }
