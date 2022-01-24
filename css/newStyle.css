@@ -63,6 +63,11 @@ a > img {
     background-color: whitesmoke;
 }
 
+.padding-text-nulu {
+    margin-top: 175px;
+    margin-right: 50px;
+}
+
 /* Cleaner Drinks image and text */
 .greener-contianer {
     background-color: whitesmoke;
@@ -72,6 +77,10 @@ a > img {
     text-align: center;
     color: var(--secondary);
     font-size: 25px;
+}
+
+.cleaner-drinks-padding {
+    margin-top: 150px;
 }
 
 /* Party with Us */
@@ -85,11 +94,23 @@ a > img {
     font-size: 25px;
 }
 
+.header-party-text {
+    margin-top: 300px;
+}
+
 /* hours */
 .hours-container {
     text-align: center;
     background-color: var(--primary);
     color: #fff;
+}
+
+.hours-text {
+    font-size: 25px;
+    
+}
+.hours-h2 {
+    border-bottom: none;
 }
 
 /* Social and address */
@@ -106,6 +127,15 @@ color: #fff;
     text-decoration: none;
     list-style-type: none;
     display: inline-block;
+}
+
+.icon {
+    height: 50px;
+    width: 50px;
+}
+
+.address-text {
+    font-size: 30px;
 }
 
 /* contact us */
