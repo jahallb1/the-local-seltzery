@@ -174,4 +174,7 @@ button {
     .font-header {
         font-size: 30px;
     }
+    .padding-text-nulu, .cleaner-drinks-padding, .header-party-text {
+        margin: 0;
+    }
 }
