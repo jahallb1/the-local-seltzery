@@ -170,9 +170,10 @@ button {
     margin-right: auto;
     margin-left: auto;
 }
+
 .carousel-inner {
     max-height: 5%;
-    max-width: 50%;
+    max-width: 40%;
     width: 50%;
     height: 5%;
 }
