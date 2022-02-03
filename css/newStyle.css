@@ -165,6 +165,21 @@ button {
     margin-right: auto;
     margin-left: auto;
 }
+.carousel-inner-picture {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.carousel-inner {
+    max-height: 5%;
+    max-width: 40%;
+    width: 50%;
+    height: 5%;
+}
+#carouselExampleControls {
+    background-color: whitesmoke;
+}
 
 @media (max-width: 700px) {
     a > img {
@@ -176,5 +191,14 @@ button {
     }
     .padding-text-nulu, .cleaner-drinks-padding, .header-party-text {
         margin: 0;
+    }
+    .carousel-inner {
+        width: auto;
+        height: auto;
+        max-width: 100%;
+        max-height: auto;
+    }
+    #carouselExampleControls {
+        background-color: none;
     }
 }
