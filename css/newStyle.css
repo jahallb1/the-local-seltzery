@@ -1,6 +1,6 @@
 :root {
     --primary: #29ad91;
-    --secondary: #c16137;
+    --secondary: #f7b377;
 }
 
 @font-face {
@@ -12,7 +12,8 @@
 }
 
 .background {
-    background-image: url("../images/iStock-1279277960.jpg") !important;
+    /* background-image: url("../images/iStock-1279277960.jpg") !important; */
+    background-color: var(--primary);
 }
 h2 {
     border-bottom: solid 2px black;
@@ -101,8 +102,8 @@ a > img {
 /* hours */
 .hours-container {
     text-align: center;
-    background-color: var(--primary);
-    color: #fff;
+    background-color: whitesmoke;
+    color: var(--primary);
 }
 
 .hours-text {
@@ -115,12 +116,12 @@ a > img {
 
 /* Social and address */
 .social-container {
-    background-color: var(--primary);
-    color: #fff;
+    color: var(--primary);
+    background-color: whitesmoke;
 }
 
 a, #location, #social {
-color: #fff;
+color: var(--primary);
 }
 
 .social-icons {
