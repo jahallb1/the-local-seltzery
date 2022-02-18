@@ -102,7 +102,7 @@ a > img {
 /* hours */
 .hours-container {
     text-align: center;
-    background-color: #fff;
+    background-color: whitesmoke;
     color: var(--primary);
 }
 
@@ -117,7 +117,7 @@ a > img {
 /* Social and address */
 .social-container {
     color: var(--primary);
-    background-color: #fff;
+    background-color: whitesmoke;
 }
 
 a, #location, #social {
