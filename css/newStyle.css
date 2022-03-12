@@ -99,6 +99,21 @@ a > img {
     margin-top: 300px;
 }
 
+/* events */
+.events-container {
+    text-align: center;
+    background-color: var(--secondary);
+    color: var(--primary);
+}
+
+.events-text {
+    font-size: 25px;
+    
+}
+.events-h2 {
+    border-bottom: none;
+}
+
 /* hours */
 .hours-container {
     text-align: center;
