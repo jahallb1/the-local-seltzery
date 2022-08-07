@@ -227,6 +227,15 @@ button {
     background-color: var(--white-color);
 }
 
+.hr {
+    color: whitesmoke;
+    height: 3px;
+}
+@media (min-width: 701px) {
+    .hide-on-desktop {
+        display: none;
+    }
+}
 @media (max-width: 700px) {
     a > img {
         height: 50px;
@@ -247,4 +256,5 @@ button {
     #carouselExampleControls {
         background-color: none;
     }
+   
 }
