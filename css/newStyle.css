@@ -52,7 +52,7 @@ a > img {
 
 /* Now Open */
 .h1-nulu {
-   
+   font-size: 3rem;
     text-align: center;
 }
 
@@ -86,6 +86,7 @@ h1, h2  {
     text-align: center;
 }
 .cleaner-drinks-text {
+    margin-top: 25px;
     text-align: center;
     color: var(--secondary);
     font-size: 25px;
@@ -107,7 +108,7 @@ h1, h2  {
 }
 
 .header-party-text {
-    margin-top: 300px;
+    margin-top: 125px;
 }
 
 img {
